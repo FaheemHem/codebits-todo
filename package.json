@@ -41,7 +41,7 @@
   },
   "scripts": {
     "start": "react-app-rewired start",
-    "build": "react-app-rewired build",
+    "build": "CI=false && react-app-rewired build",
     "wait-for-local-server": "npm wait-on http://localhost:3000 --timeout 600000",
     "eject": "react-scripts eject",
     "test": "jest",
